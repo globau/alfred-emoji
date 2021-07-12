@@ -1,0 +1,5 @@
+Alfred Workflow for Emoji.
+
+Use "e <search>" for emoji/etc, "t <search>" for twitch emotes.
+
+Edit the .tsv files to add more: <output string><tab><keywords/description>
