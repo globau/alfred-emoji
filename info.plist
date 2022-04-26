@@ -166,7 +166,11 @@ cat $NAME-do-not-edit.json</string>
 		</dict>
 	</array>
 	<key>readme</key>
-	<string></string>
+	<string>Alfred Workflow for Emoji.
+
+Use "e &lt;search&gt;" for emoji/etc, "t &lt;search&gt;" for twitch emotes.
+
+Edit the .tsv files to add more: &lt;output string&gt;&lt;tab&gt;&lt;keywords/description&gt;</string>
 	<key>uidata</key>
 	<dict>
 		<key>152306D0-233F-4B57-9C5B-C70C19645BF5</key>
@@ -191,7 +195,11 @@ cat $NAME-do-not-edit.json</string>
 			<integer>160</integer>
 		</dict>
 	</dict>
+	<key>variablesdontexport</key>
+	<array/>
+	<key>version</key>
+	<string>1</string>
 	<key>webaddress</key>
-	<string></string>
+	<string>https://github.com/globau/alfred-emoji</string>
 </dict>
 </plist>
