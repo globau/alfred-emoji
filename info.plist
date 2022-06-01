@@ -72,7 +72,7 @@
 				<string>Looking…</string>
 				<key>script</key>
 				<string>NAME=emoji
-[ $NAME.tsv -nt $NAME-do-not-edit.json ] &amp;&amp; ./rebuild.py $NAME
+[[ $NAME.tsv -nt $NAME-do-not-edit.json ]] &amp;&amp; ./rebuild.py $NAME
 cat $NAME-do-not-edit.json</string>
 				<key>scriptargtype</key>
 				<integer>1</integer>
@@ -142,7 +142,7 @@ cat $NAME-do-not-edit.json</string>
 				<string>Looking…</string>
 				<key>script</key>
 				<string>NAME=twitch
-[ $NAME.tsv -nt $NAME-do-not-edit.json ] &amp;&amp; ./rebuild.py $NAME
+[[ $NAME.tsv -nt $NAME-do-not-edit.json ]] &amp;&amp; ./rebuild.py $NAME
 cat $NAME-do-not-edit.json</string>
 				<key>scriptargtype</key>
 				<integer>1</integer>
